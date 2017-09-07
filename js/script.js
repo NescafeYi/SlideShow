@@ -92,7 +92,7 @@ window.onload = function(){
 	function play(){
 		timer = setInterval(function(){
 			right.onclick();
-		},3000)
+		},5000)
 	}
 	function stop(){
 		clearInterval(timer);
